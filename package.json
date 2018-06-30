@@ -1,0 +1,33 @@
+{
+  "name": "stream-msgpack-as-json",
+  "version": "1.0.0",
+  "description": "Streams msgpack as a JSON token stream and back.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uhop/stream-msgpack-as-json.git"
+  },
+  "keywords": [
+    "tokenizer",
+    "parser",
+    "msgpack",
+    "stream",
+    "streaming"
+  ],
+  "author": "Eugene Lazutkin <eugene.lazutkin@gmail.com> (http://lazutkin.com/)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/uhop/stream-msgpack-as-json/issues"
+  },
+  "homepage": "https://github.com/uhop/stream-msgpack-as-json#readme",
+  "devDependencies": {
+    "heya-unit": "^0.3.0",
+    "stream-chain": "^2.0.3"
+  },
+  "dependencies": {
+    "stream-json": "^1.1.0"
+  }
+}
